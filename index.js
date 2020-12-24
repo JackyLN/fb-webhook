@@ -5,7 +5,7 @@ const
   bodyParser = require('body-parser'),
   express = require('express'),
   path = require('path'),
-  config = require('config');
+  config = require('./config');
 
 let app = express();
 app.use(bodyParser.json());
